@@ -453,26 +453,4 @@ template {
 }
 
 /* タブレット向けレイアウト */
-/* モバイル向けレイアウト */
-/* Common */
-* {
-  box-sizing: border-box;
-}
-
-html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  line-height: 1.8em;
-  font-family: "Hiragino Sans", sans-serif;
-}
-
-li {
-  list-style: none;
-}
-
-body {
-  position: relative;
-  min-height: 100vh;
-  padding-bottom: 50px;
-}/*# sourceMappingURL=style.css.map */
+/* モバイル向けレイアウト *//*# sourceMappingURL=style.css.map */
