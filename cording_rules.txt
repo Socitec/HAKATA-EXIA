@@ -1,0 +1,55 @@
+【コーディングルール】
+
+●スタイル適用の優先度
+ (1) reset CSS
+ (2) common CSS
+ (3) bootstrap
+ (4) ページ固有 CSS
+
+●ファイル構成
+ ・HTML
+  ディレクトリは、全てのページで階層はルートディレクトリ
+  ファイル名：ページ名.html
+ ・CSS
+  scssファイルでコーディング
+  ページごとにページ名のディレクトリを作成
+  ページごとのディレクトリに1つのscssファイルと1つのcssファイル
+  ファイル名：ページ名.scss
+  各scssファイル冒頭で共通スタイルをインポート
+  インポートする内容は、以下の通り
+   -リセットスタイル：_reset.scss
+   -共通スタイル：_common.scss
+   -scss変数：_misin.scss
+   -ヘッダースタイル：_header.scss
+   -フッタースタイル：‗footer.scss
+  レスポンシブのscssファイルは固有ページのディレクトリに、ページ名_responsive.scssとして作る。
+
+
+●Class命名規則
+・BEM記法
+ Block__Element--modifier
+ 参考：https://tech.synapse.jp/entry/2021/07/01/113000
+ 
+ BlockとElementの区切りはアンダースコア２つで繋げる
+ BlockもしくはElementとModifierの区切りはハイフン２つで繋げる
+ Block、Element、Modifierを２つ以上の単語で表す場合の単語と単語の区切りはハイフン
+ Modifierのキーは省略可能
+
+ HTMLの要素名をセレクターとして利用しない。 
+ スコープを絞って影響範囲を狭くする。
+ 利用場所を変えたらスタイルが効かなくなるのを避ける。
+ idをスタイルに利用しない。クラスセレクターを使う。
+ HTMLの影響範囲がCSSのスタイリングと一致する。 
+ 影響範囲が想像できるクラス名をつける。
+ マルチクラス設計を使う。
+
+・共通スタイル
+ c-class名
+
+・個別ページスタイル　class命名法
+ div階層
+ container -> area -> box -> content -> item
+ 見出しはheading
+
+
+
