@@ -22,32 +22,53 @@
   <link rel="stylesheet" href="stylesheet/entrance/responsive_entrance.css">
   <!-- Font Awesome読み込み -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  <!-- jQuery Javascript読み込み -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap Javascript読み込み-->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Javascript読み込み -->
+  <script src="script/script.js"></script>
 </head>
 
 <body>
   <!-- Header -->
   <header class="header" id="header">
-    <div class="container">
-      <div>
-        <img src="image/common/logo.png" alt="Logo">
+    <div class="c_container">
+      <div class="header__logo-area">
+        <img class="header__logo-img" src="image/common/logo.png" alt="Logo">
       </div>
-      <div class="">
+      <div class="header__menu-area">
         <nav>
-          <ul class="">
-            <li class=""><span class="">
-                Location</span><br><span class="">ロケーション</span>
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="">
+                <span class="header__menu-toptext">Location</span><br>
+                <span class="header__menu-bottomtext">ロケーション</span>
+              </a>
             </li>
-            <li class=""><span class="">
-                Quality</span><br><span class="">設備仕様</span>
+            <li class="header__menu-item">
+              <a href="">
+                <span class="header__menu-toptext">Quality</span><br>
+                <span class="header__menu-bottomtext">設備仕様</span>
+              </a>
             </li>
-            <li class="">
-              <span class="">Orderstyle</span><br><span class="">オーダースタイル</span>
+            <li class="header__menu-item">
+              <a href="">
+                <span class="header__menu-toptext">Orderstyle</span><br>
+                <span class="header__menu-bottomtext">オーダースタイル</span>
+              </a>
             </li>
-            <li class="">
-              <span class="">サングレート姪浜駅南</span><br><span class="">FIRST</span>
+            <li class="header__menu-item header__menu-item--background">
+              <a href="">
+                <span class="header__menu-toptext header__menu-item-bac">サングレート姪浜駅南</span><br>
+                <span class="header__menu-bottomtext">FIRST</span>
+              </a>
             </li>
-            <li class="">
-              <span class="">サングレート姪浜駅南</span><br><span class="">NEXT</span>
+            <li class="header__menu-item header__menu-item--background">
+              <a href="">
+                <span class="header__menu-toptext header__menu-toptext--background">サングレート姪浜駅南</span><br>
+                <span class="header__menu-bottomtext header__menu-bottomtext--background">NEXT</span>
+              </a>
             </li>
           </ul>
         </nav>
@@ -57,55 +78,55 @@
 
   <main>
     <!-- トップリボン -->
-    <section class="">
-      <div class="">
-        <p class="">QUALITY</p>
-        <p class="">設備仕様</p>
+    <section class="topindex" id="topindex">
+      <div class="c_container">
+        <p class="topindex__toptext">QUALITY</p>
+        <p class="topindex__bottomtext">設備仕様</p>
       </div>
     </section>
 
     <!-- トップメニュー -->
-    <section class="">
-      <div class="">
-        <ul>
-          <li class="">
+    <section class="topmenu" id="topmenu">
+      <div class="c_container">
+        <ul class="topmenu__list-area">
+          <li class="topmenu__list-item topmenue__list-item--thispage">
             <a href="">
-              <p class="">ENTRANCE</p><i class="fa-solid fa-chevron-right"></i>
+              <p class="topmenu__list-text">ENTRANCE</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="">
+          <li class="topmenu__list-item">
             <a href="">
-              <p class="">KITCHEN</p><i class="fa-solid fa-chevron-right"></i>
+              <p class="topmenu__list-text">KITCHEN</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="">
+          <li class="topmenu__list-item">
             <a href="">
-              <p class="">BATH ROOM</p><i class="fa-solid fa-chevron-right"></i>
+              <p class="topmenu__list-text">BATH ROOM</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="">
+          <li class="topmenu__list-item">
             <a href="">
-              <p class="">POWDER ROOM</p><i class="fa-solid fa-chevron-right"></i>
+              <p class="topmenu__list-text">POWDER ROOM</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="">
+          <li class="topmenu__list-item">
             <a href="">
-              <p class="">RESTROOM</p><i class="fa-solid fa-chevron-right"></i>
+              <p class="topmenu__list-text">RESTROOM</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="">
+          <li class="topmenu__list-item">
             <a href="">
-              <p class="">ECOLOGY & ECONOMY</p><i class="fa-solid fa-chevron-right"></i>
+              <p class="topmenu__list-text">ECOLOGY & ECONOMY</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="">
+          <li class="topmenu__list-item">
             <a href="">
-              <p class="">SECURITY & STRUCTURE</p><i class="fa-solid fa-chevron-right"></i>
+              <p class="topmenu__list-text">SECURITY & STRUCTURE</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="">
+          <li class="topmenu__list-item">
             <a href="">
-              <p class="">EQUIPMENT</p><i class="fa-solid fa-chevron-right"></i>
+              <p class="topmenu__list-text">EQUIPMENT</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
         </ul>
@@ -113,16 +134,16 @@
     </section>
 
     <!-- トップ -->
-    <section class="" id="">
-      <div class="">
-        <div class="">
-          <h1 class="">
+    <section class="topview" id="topview">
+      <div class="c_container">
+        <div class="topview__heading-area">
+          <h1 class="topview__heading">
             ENTRANCE
           </h1>
-          <p class="">
+          <p class="topview__heading-toptext">
             邸宅の顔を美しく整える。
           </p>
-          <p class="">
+          <p class="topview__heading-bottomtext">
             一瞬で上質な暮らしを感じさせる玄関ドアは、<br>
             爽やかな風を住まいに取り込む機能をプラスしたハイグレード仕様。<br>
             ゲストを優しく迎える印象的な玄関スペースにもこだわりました。<br>
@@ -131,73 +152,73 @@
             連想させる迎賓空間に仕上げました。
           </p>
         </div>
-        <div>
-          <img src="image/entrance/entrance_top.jpg" alt="entrance">
+        <div class="topview__image-area">
+          <img class="topview__img" src="image/entrance/entrance_top.jpg" alt="entrance">
         </div>
       </div>
     </section>
 
     <!-- Discription -->
-    <section class="" id="">
-      <div class="">
-        <h2 class="">
+    <section class="discription" id="discription">
+      <div class="c_container">
+        <h2 class="discription__heading">
           安全･安心設計の玄関ドア
         </h2>
-        <p class="">
+        <p class="discription__text">
           風格漂う玄関ドアは、通気や耐震・防犯性にも配慮。デザイン性と暮らしの安心につながる機能が融合。
         </p>
       </div>
     </section>
 
     <!-- ドアラインナップ1 -->
-    <section class="" id="">
-      <div class="">
-        <div class="">
-          <img class="" src="image/entrance/entrance_door-lixil.jpg" alt="entrance-door">
-          <p class="">優雅に迎える、送り出す、住宅の顔となる玄関</p>
+    <section class="doorlineup1" id="doorlineup1">
+      <div class="c_container">
+        <div class="doorlineup1__left-area">
+          <img class="doorlineup1__left-img" src="image/entrance/entrance_door-lixil.jpg" alt="entrance-door">
+          <p class="doorlineup1__left-text">優雅に迎える、送り出す、住宅の顔となる玄関</p>
         </div>
-        <div class="">
-          <div class="">
-            <img class="" src="image/entrance/entrance_cabinet1.jpg" alt="entrance-cabinet">
-            <img class="" src="image/entrance/entrance_cabinet2.jpg" alt="entrance-cabinet">
+        <div class="doorlineup1__right-area">
+          <div class="doorlineup1__right-box">
+            <img class="doorlineup1__right-img" src="image/entrance/entrance_cabinet1.jpg" alt="entrance-cabinet">
+            <img class="doorlineup1__right-img" src="image/entrance/entrance_cabinet2.jpg" alt="entrance-cabinet">
           </div>
-          <p class="">
+          <p class="doorlineup1__right-text">
             収納豊富な姿鏡付き大型下足入れ（足元照明はオプション）
           </p>
         </div>
       </div>
     </section>
 
-    <!-- ドアラインナップ2-->
-    <section class="">
-      <div class="">
-        <div class="">
-          <p class="">
+    <!-- ドアラインナップ2 -->
+    <section class="doorlineup2">
+      <div class="c_container">
+        <div class="doorlineup2__text-area">
+          <p class="doorlineup2__text">
             艶やかな上質感が際立つ建具
           </p>
         </div>
-        <div class="">
-          <div class="">
-            <img class="" src="image/entrance/entrance_door1.jpg" alt="entrance-door">
-            <p class="">
+        <div class="doorlineup2__product-area">
+          <div class="doorlineup2__product-box">
+            <img class="doorlineup2__product-img" src="image/entrance/entrance_door1.jpg" alt="entrance-door">
+            <p class="doorlineup2__product-text">
               リビングドア　スタイリッシュ
             </p>
           </div>
-          <div class="">
-            <img class="" src="image/entrance/entrance_door2.jpg" alt="entrance-door">
-            <p class="">
+          <div class="doorlineup2__product-box">
+            <img class="doorlineup2__product-img" src="image/entrance/entrance_door2.jpg" alt="entrance-door">
+            <p class="doorlineup2__product-text">
               洋間ドア　スタイリッシュ
             </p>
           </div>
-          <div class="">
-            <img class="" src="image/entrance/entrance_door1.jpg" alt="">
-            <p class="">
+          <div class="doorlineup2__product-box">
+            <img class="doorlineup2__product-img" src="image/entrance/entrance_door1.jpg" alt="">
+            <p class="doorlineup2__product-text">
               洋間ドア　ナチュラル
             </p>
           </div>
-          <div class="">
-            <img class="" src="image/entrance/entrance_door4.jpg" alt="">
-            <p class="">
+          <div class="doorlineup2__product-box">
+            <img class="doorlineup2__product-img" src="image/entrance/entrance_door4.jpg" alt="">
+            <p class="doorlineup2__product-text">
               洋間ドア　アーバン
             </p>
           </div>
@@ -205,62 +226,54 @@
       </div>
     </section>
 
-
     <!-- Footer -->
     <footer class="footer" id="footer">
-      <div class="">
-        <div class="">
-          <p class="">
+      <div class="footer__attention-area">
+        <div class="c_container">
+          <p class="footer__attention-text">
             ※掲載の写真は当社モデルルーム・メーカー写真等であり、タイプにより含まれないものや、実際とは設備・仕様等が異なる場合があります。また一部オプション（有料）が含まれています。<br>
             ※家具・備品等は販売価格に含まれておりません。予めご了承下さい。
           </p>
         </div>
       </div>
-      <div class="">
-        <div class="">
-          <p class="">
+      <div class="footer__top-area">
+        <div class="footer__top-left-box">
+          <p class="footer__top-left-text">
             [お問い合わせ]<br>
             サングレートマンションギャラリー
           </p>
         </div>
-        <div class="">
-          <img class="" src="image/common/freedial.jpg" alt="">
-          <p class="">
+        <div class="footer__top-middle-box">
+          <img class="footer__top-middle-img" src="image/common/freedial.jpg" alt="">
+          <p class="footer__top-middle-text">
             0120-433-630
           </p>
         </div>
-        <div class="">
-          <p class="">
+        <div class="footer__top-right-box">
+          <p class="footer__top-right-text">
             営業時間 10：00～18：00 （定休日なし）<br>
             ※携帯電話からもご利用になれます。
           </p>
         </div>
       </div>
-      <div class="">
-        <img class="" src="image/common/footer.jpg" alt="footer-logo">
+      <div class="footer__middle-area">
+        <img class="footer__middle-img" src="image/common/footer.jpg" alt="footer-logo">
       </div>
-      <div class="">
-        <div class="">
-          <p class="">
+      <div class="footer__bottom-area">
+        <div class="footer__bottom-box">
+          <p class="footer__bottom-text">
             サングレート姪浜駅南<br>
             FIRST
           </p>
         </div>
-        <div class="">
-          <p class="">
+        <div class="footer__bottom-box">
+          <p class="footer__bottom-text">
             サングレート姪浜駅南<br>
             NEXT
           </p>
         </div>
       </div>
     </footer>
-
-    <!-- jQuery Javascript読み込み -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Bootstrap-JS読み込み-->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- javasScript読み込み -->
-    <script src="script/script.js"></script>
 
 </body>
 

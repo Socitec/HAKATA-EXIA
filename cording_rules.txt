@@ -44,12 +44,15 @@
  マルチクラス設計を使う。
 
 ・共通スタイル
- c-class名
+ c_class名
 
 ・個別ページスタイル　class命名法
  div階層
  container -> area -> box -> content -> item
  見出しはheading
+ imgはelement-img
+ pはelement-text
+ hはelement-heading
 
 
 
