@@ -1,0 +1,199 @@
+@use "../import/reset";
+@use "../import/mixin";
+@use "../import/common";
+@use "../import/header";
+@use "../import/footer";
+
+
+.strength__container {
+  margin-top: 78.2px;
+}
+
+.strength__left-area {
+  width: 680px;
+}
+
+.strength__right-area {
+  width: 560.3px;
+}
+
+.strength__right-bottom-area {
+  margin-top: 30px;
+}
+
+.strength__text-area {
+  margin-top: 14.8px;
+}
+
+.strength__top-text {
+  font-size: 20px;
+}
+
+.strength__top-text-small {
+  font-size: 16px;
+}
+
+.strength__bottom-text {
+  margin-top: 12.6px;
+}
+
+
+
+
+
+.detail {
+  margin-top: 89.3px;
+  margin-bottom: 100.4px;
+}
+
+.detail__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.detail__item {
+  margin-top: 40px;
+}
+
+.detail-img {
+  width: 100%;
+}
+
+.detail__toptext {
+  margin-top: 14.7px;
+  font-size: 20px;
+}
+
+.detail__bottomtext {
+  margin-top: 10.6px;
+}
+
+.feature {
+  margin-bottom: 63.4px;
+}
+
+.feature__container {
+  margin-top: 78.2px;
+}
+
+.feature__left-area {
+  width: 620px;
+}
+
+.feature__right-area {
+  width: 620px;
+}
+
+.feature__text-area {
+  margin-top: 14.8px;
+}
+
+.feature__top-text {
+  font-size: 20px;
+}
+
+.feature__top-text-small {
+  font-size: 16px;
+}
+
+.feature__bottom-text {
+  margin-top: 12.6px;
+}
+
+@media all and (max-width: 768px) {
+  .topview__img {
+    width: 100%;
+  }
+
+
+  
+  .strength__container {
+    flex-direction: column;
+  }
+
+  .strength__left-area {
+    width: 100%;
+  }
+  
+  .strength__right-area {
+    width: 100%;
+  }
+
+  .strength__left-img {
+    width: 100%;
+  }
+
+  .strength__right-area {
+    margin-top: 75.2px;
+  }
+
+  .strength__right-bottom-area {
+    margin-top: 60px;
+  }
+
+  .strength__right-img {
+    width: 100%;
+  }
+
+  .kitchen-howto__heading-box {
+    height: auto;
+  }
+
+  .kitchen-howto__heading-text {
+    font-size: 44px;
+  }
+
+  .kitchen-howto__heading-number {
+    font-size: 44px;
+  }
+
+  .kitchen-howto__image-box {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .kitchen-howto__image-items {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .kitchen-howto__image-content-left {
+    width: 100%;
+  }
+
+  .kitchen-howto__image-content-right {
+    width: 100%;
+  }
+
+  .detail__container {
+    grid-template-columns: 1fr;
+  }
+
+  
+  .feature__container {
+    flex-direction: column;
+  }
+
+  .feature__left-area {
+    width: 100%;
+  }
+  
+  .feature__right-area {
+    width: 100%;
+  }
+
+  .feature__left-img {
+    width: 100%;
+  }
+
+  .feature__right-area {
+    margin-top: 75.2px;
+  }
+
+  .feature__right-img {
+    width: 100%;
+  }
+
+
+}
