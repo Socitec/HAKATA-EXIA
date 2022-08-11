@@ -69,6 +69,7 @@ p {
 
 }
 
+
 .topview__heading-toptext {
   font-size: 22px;
   margin-top: 25.8px;
@@ -90,4 +91,35 @@ p {
 .discription__text {
   margin-top: 25.4px;
   font-size: 22px;
+}
+
+
+@media all and (max-width: 768px) {
+  main {
+    margin-top: 90px;
+  }
+
+  .c_container {
+    width: 92%;
+    max-width: 92%;
+    flex-direction: column;
+  }
+
+  .topmenu__list-area {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.8%;
+  }
+
+  .topmenu__list-text {
+    text-align: center;
+  }
+
+
+  .topview__heading-area {
+    width: 100%;
+  }
+
+  .topview__image-area {
+    margin-top: 96px;
+  }
 }

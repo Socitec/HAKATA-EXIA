@@ -28,12 +28,13 @@
 
 .footer__top-middle-box {
   margin-left: 28.3px;
-  margin-right: 28.3px ;
+  margin-right: 28.3px;
 }
 
 .footer__top-middle-img {
   margin-right: 9.4px;
 }
+
 .footer__top-middle-text {
   font-size: 50px;
 }
@@ -43,6 +44,7 @@
 }
 
 .footer__bottom-area {
+  display: flex;
   height: 100.8px;
   background-color: rgb(47, 56, 63);
 
@@ -66,4 +68,29 @@
   line-height: 26px;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
+}
+
+
+@media all and (max-width: 768px) {
+  .footer__top-area {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer__top-left-box {
+    margin-top: 8.4px;
+  }
+
+  .footer__top-middle-text {
+    font-size: 40px;
+  }
+
+  .footer__top-right-box {
+    margin-bottom: 8.4px;
+  }
+
+  .footer__bottom-area {
+    display: none;
+  }
+
 }
