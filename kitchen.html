@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>KITCHEN</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!-- favicon読み込み -->
+  <link rel="icon" href="">
+  <!-- Viewport読み込み -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+  <!-- サムネイル読み込み -->
+  <meta name="thumbnail" content="" />
+  <!-- BootstrapのCSS読み込み -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- 個別ページStyle読み込み -->
+  <link rel="stylesheet" href="stylesheet/kitchen/kitchen.css">
+  <!-- Font Awesome読み込み -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__container d-flex justify-content-between">
+      <div class="header__logo-area">
+        <img class="header__logo-img" src="image/common/logo.png" alt="Logo">
+      </div>
+      <div class="header__menu-area headerMenu navWrapper align-middle">
+        <nav class="headerNav">
+          <ul class="header__menu-list navList d-lg-flex justify-content-between align-middle">
+            <li class="header__menu-item navItem d-flex text-center c_align-items-c px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Location</span><br>
+                  <span class="header__menu-bottomtext">ロケーション</span>
+                </p>
+              </a>
+            </li>
+            <li class="header__menu-item navItem d-flex c_align-items-c text-center px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Quality</span><br>
+                  <span class="header__menu-bottomtext">設備仕様</span>
+                </p>
+              </a>
+            </li>
+            <li class="header__menu-item navItem d-flex c_align-items-c text-center px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Orderstyle</span><br>
+                  <span class="header__menu-bottomtext">オーダースタイル</span>
+                </p>
+              </a>
+            </li>
+            <li
+              class="header__menu-item header__menu-item--background header__menu-item--background-left navItem d-flex c_align-items-c text-center px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">サングレート姪浜駅南</span><br>
+                  <span class="header__menu-bottomtext">FIRST</span>
+                </p>
+              </a>
+            </li>
+            <li
+              class="header__menu-item header__menu-item--background header__menu-item--background-right navItem d-flex c_align-items-c text-center px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">サングレート姪浜駅南</span><br>
+                  <span class="header__menu-bottomtext">NEXT</span>
+                </p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- ハンバーガーメニューボタン -->
+      <div class="burgerButton">
+        <span class="bar bar_top"></span>
+        <span class="bar bar_mid"></span>
+        <span class="bar bar_bottom"></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- トップリボン -->
+    <section class="topindex d-flex c_align-items-c" id="topindex">
+      <div class="c_container">
+        <p class="topindex__toptext text-center">QUALITY</p>
+        <p class="topindex__bottomtext text-center">設備仕様</p>
+      </div>
+    </section>
+
+    <!-- トップメニュー -->
+    <section class="topmenu " id="topmenu">
+      <div class="c_container topmenu__container">
+        <ul class="topmenu__list-area">
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="entrance.html">
+              <p class="topmenu__list-text d-inline-block">ENTRANCE</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow pull-right"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item topmenu__list-item--thispage d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="kitchen.html">
+              <p class="topmenu__list-text d-inline-block">KITCHEN</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="bathroom.html">
+              <p class="topmenu__list-text d-inline-block">BATH ROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="powderroom.html">
+              <p class="topmenu__list-text d-inline-block">POWDER ROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="restroom.html">
+              <p class="topmenu__list-text d-inline-block">RESTROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="ecology-economy.html">
+              <p class="topmenu__list-text d-inline-block">ECOLOGY & ECONOMY</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="security-structure.html">
+              <p class="topmenu__list-text d-inline-block">SECURITY & STRUCTURE</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="equipment.html">
+              <p class="topmenu__list-text d-inline-block">EQUIPMENT</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- トップ -->
+    <section class="topview" id="topview">
+      <div class="c_container c_align-items-c topview__container d-flex justify-content-between">
+        <div class="topview__heading-area">
+          <h1 class="topview__heading">
+            KITCHEN
+          </h1>
+          <p class="topview__heading-toptext">
+            開放感の中に高性能を秘めて。
+          </p>
+          <p class="topview__heading-bottomtext">
+            リビングとフラットなカウンターでつながる<br>
+            開放感溢れる対面キッチン。<br>
+            インテリア性に優れ、<br>
+            ふれあいを深める家族の共同作業やパーティークッキングも<br>
+            余裕で叶えるつくりです。<br>
+            キッチンワークを立体的にサポートする<br>
+            ユーティリティシンクをはじめ、<br>
+            和やかに会話しながらも、効率的に調理が進む<br>
+            先進の工夫を満載しました。<br>
+          </p>
+        </div>
+        <div class="topview__image-area">
+          <img class="topview__img" src="image/kitchen/kitchen_top.jpg" alt="kitchen">
+        </div>
+      </div>
+    </section>
+
+    <!-- Discription -->
+    <section class="discription" id="discription">
+      <div class="c_container text-center discription__container">
+        <h2 class="d-inline-block  c_align-items-c discription__heading px-4">
+          立体的に調理をサポートするユーティリティシンクE
+        </h2>
+        <p class="discription__text">
+          使い方自在の三層シンクが、「洗う・切る・作る」を快適にアシストします。
+        </p>
+      </div>
+    </section>
+
+    <!-- キッチン構造 -->
+    <section class="kitchen-structure" id="kitchen-structure">
+      <div class="c_container  d-flex justify-content-between align-middle kitchen-structure__container">
+        <div class="kitchen-structure__left-area">
+          <img class="kitchen-structure__left-img" src="image/kitchen/kitchen_structure1.jpg" alt="kitchen-strucure">
+        </div>
+        <div class="kitchen-structure__right-area">
+          <img class="kitchen-structure__right-img" src="image/kitchen/kitchen_structure2.jpg" alt="kitchen-structure">
+        </div>
+      </div>
+    </section>
+
+    <!-- キッチン使い方 -->
+    <section class="kitchen-howto" id="kithchen-howto">
+      <div class="c_container">
+        <div class="kitchen-howto__space-area kitchen-howto__space-area--1">
+          <div class="kitchen-howto__heading-box d-flex">
+            <p class="kitchen-howto__heading-text">
+              <span class="kitchen-howto__heading-number">01</span>作業スペース拡大ワークトップスペース
+            </p>
+          </div>
+          <div class="kitchen-howto__image-box d-flex justify-content-md-between">
+            <div class="kitchen-howto__image-content-left">
+              <div class="kitchen-howto__image-items d-flex justify-content-md-between">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_worktop1.jpg"
+                  alt="kitchen">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_worktop2.jpg"
+                  alt="kitchen">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_worktop3.jpg"
+                  alt="kitchen">
+              </div>
+              <div class="kitchen-howto__image-discription">
+                <p class="kitchen-howto__image-discription-text">
+                  プレートを設置すると、シンクの上にまな板を置くことができ、広い作業スペースが確保できます。野菜や食器の水切りとして便利です。
+                </p>
+              </div>
+            </div>
+            <div class="kitchen-howto__line"></div>
+            <div class="kitchen-howto__image-content-right">
+              <div class="kitchen-howto__image-item d-flex">
+                <img class="kitchen-howto__image-picture-img-right" src="image/kitchen/kitchen_worktop4.jpg"
+                  alt="kitchen">
+              </div>
+              <div class="kitchen-howto__image-discription">
+                <p class="kitchen-howto__image-discription-toptext">
+                  ワークトップ水切りプレート
+                </p>
+                <p class="kitchen-howto__image-discription-text">
+                  水切りプレートを活用すれば作業スペースが広がり調理の効率がアップします。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="c_container">
+        <div class="kitchen-howto__space-area kitchen-howto__space-area--2">
+          <div class="kitchen-howto__heading-box d-flex">
+            <p class="kitchen-howto__heading-text">
+              <span class="kitchen-howto__heading-number">02</span>作業効率アップアシストスペース
+            </p>
+          </div>
+          <div class="kitchen-howto__image-box d-flex justify-content-md-between">
+            <div class="kitchen-howto__image-content-left">
+              <div class="kitchen-howto__image-items d-flex justify-content-md-between">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_upassist1.jpg"
+                  alt="kitchen">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_upassist2.jpg"
+                  alt="kitchen">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_upassist3.jpg"
+                  alt="kitchen">
+              </div>
+              <div class="kitchen-howto__image-discription">
+                <p class="kitchen-howto__image-discription-text">
+                  付属のまな板をシンク上に設置できます。こんにゃくや漬物など、水気の多い食材や魚介等の処理等も快適に行えます。
+                </p>
+              </div>
+            </div>
+            <div class="kitchen-howto__line"></div>
+            <div class="kitchen-howto__image-content-right">
+              <div class="kitchen-howto__image-item d-flex">
+                <img class="kitchen-howto__image-picture-img-right" src="image/kitchen/kitchen_upassist4.jpg"
+                  alt="kitchen">
+              </div>
+              <div class="kitchen-howto__image-discription">
+                <p class="kitchen-howto__image-discription-toptext">
+                  まな板
+                </p>
+                <p class="kitchen-howto__image-discription-text">
+                  シンクの上に設置できるまな板を付属しています。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="c_container">
+        <div class="kitchen-howto__space-area kitchen-howto__space-area--3">
+          <div class="kitchen-howto__heading-box d-flex">
+            <p class="kitchen-howto__heading-text">
+              <span class="kitchen-howto__heading-number">03</span>シンク中段を有効利用ミドルスペース
+            </p>
+          </div>
+          <div class="kitchen-howto__image-box d-flex justify-content-md-between">
+            <div class="kitchen-howto__image-content-left">
+              <div class="kitchen-howto__image-items d-flex justify-content-md-between">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_middlespace1.jpg"
+                  alt="kitchen">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_middlespace2.jpg"
+                  alt="kitchen">
+                <img class="kitchen-howto__image-picture-img-left" src="image/kitchen/kitchen_middlespace3.jpg"
+                  alt="kitchen">
+              </div>
+              <div class="kitchen-howto__image-discription">
+                <p class="kitchen-howto__image-discription-text">
+                  パスタなどの湯お湯切りや、水洗いの際、シンクの汚れを気にせずに調理できます。また力の入れやすい高さで作業ができ快適です。
+                </p>
+              </div>
+            </div>
+            <div class="kitchen-howto__line"></div>
+            <div class="kitchen-howto__image-content-right">
+              <div class="kitchen-howto__image-item d-flex">
+                <img class="kitchen-howto__image-picture-img-right" src="image/kitchen/kitchen_middlespace4.jpg"
+                  alt="kitchen">
+              </div>
+              <div class="kitchen-howto__image-discription">
+                <p class="kitchen-howto__image-discription-toptext">
+                  ミドル水切りプレート・ミドル調理プレート
+                </p>
+                <p class="kitchen-howto__image-discription-text">
+                  2つのプレートの利用し多彩な作業スペースへと早変わりします。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ワークスペース-->
+    <section class="workspace" id="workspace">
+      <div class="c_container">
+        <div class="workspace__main-area d-flex justify-content-center">
+          <img class="workspace__img" src="image/kitchen/kitchen_workspace.jpg" alt="workspace">
+          <p class="workspace__text">
+            まな板をワークトップに置くと作業スペースを狭めてしまいますが、シンク上にまな板を置くことで、作業スペースを広くお使いいただけます。
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 中段 -->
+    <section class="topview" id="topview">
+      <div class="c_container c_align-items-c topview__container d-flex justify-content-between">
+        <div class="topview__heading-area">
+          <p class="topview__heading-toptext">
+            キッチンワークを支える美学がある。
+          </p>
+          <p class="topview__heading-bottomtext">
+            調理する、洗う、仕舞う、そして会話を愉しむ。<br>
+            キッチンの様々なシーンを、<br>
+            使う方の身になって考えるとキッチンは美しく進化します。<br>
+            高級感漂う表情から、欲しかった機能性、<br>
+            気配りが行き届いた収納の数々まで、<br>
+            トータルコーディネート。<br>
+            上質なキッチンには、<br>
+            家事の場所を、家族と過ごす場所に変える力があります。
+          </p>
+        </div>
+        <div class="topview__image-area">
+          <img class="topview__img" src="image/kitchen/kitchen_middle.jpg" alt="kitchen">
+        </div>
+      </div>
+    </section>
+
+    <!-- 中段キャッチ -->
+    <section class="discription" id="discription">
+      <div class="c_container text-center discription__container">
+        <h2 class="d-inline-block  c_align-items-c discription__heading px-4">
+          効率的で魅力いっぱいの先進設備をラインアップ
+        </h2>
+        <p class="discription__text">
+          インテリアライクなキッチンに多彩な機能を満載し、その美しさをいつまでも。
+        </p>
+      </div>
+    </section>
+
+    <!-- 収納 -->
+    <section class="kitchen-structure" id="kitchen-structure">
+      <div class="c_container">
+        <div class="d-flex justify-content-between align-middle kitchen-structure__container">
+          <div class="kitchen-structure__left-area">
+            <img class="kitchen-structure__left-img" src="image/kitchen/kitchen_cabinet1.jpg" alt="kitchen-strucure">
+          </div>
+          <div class="kitchen-structure__right-area">
+            <img class="kitchen-structure__right-img" src="image/kitchen/kitchen_cabinet2.jpg" alt="kitchen-structure">
+          </div>
+        </div>
+        <div class="kitchen-structure__text-area">
+          <p class="kitchen-structure__top-text">
+            魅力の豊富な収納力 <span class="kitchen-structure__top-text-small">※カップボード・トール収納はオプション</span>
+          </p>
+          <p class="kitchen-structure__bottom-text">
+            食器や食品のストックを豊富に収納できる全面収納をダイニング側に、また、シンク側にも包丁や調味料などサッと取出せる収納が魅力。 </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 設備詳細 -->
+    <section class="detail">
+      <div class="c_container detail__container">
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item1.jpg" alt="">
+          <p class="detail__toptext">
+            隠せるホーローボックス
+          </p>
+          <p class="detail__bottomtext">
+            まな板やラップなど整理整頓に便利な収納ボックスを設置しています。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item2.jpg" alt="">
+          <p class="detail__toptext">
+            洗剤置き
+          </p>
+          <p class="detail__bottomtext">
+            いつも使う小物などの収納に便利な洗剤置きを設置しています。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item3.jpg" alt="">
+          <p class="detail__toptext">
+            レンジフード
+          </p>
+          <p class="detail__bottomtext">
+            吸引効果の高い整流板は、高品位ホーローを採用しているので、お掃除もカンタンなレンジフードです。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item4.jpg" alt="">
+          <p class="detail__toptext">
+            人造大理石トップ
+          </p>
+          <p class="detail__bottomtext">
+            人造大理石の落ち着いた雰囲気と滑らかな質感により、上質なキッチンを演出。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item5.jpg" alt="">
+          <p class="detail__toptext">
+            浄水機能付ハンドシャワー水栓
+          </p>
+          <p class="detail__bottomtext">
+            水栓の先端に浄水器を内蔵したハンドシャワー水栓。（※カートリッジは有償です）
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item6.jpg" alt="">
+          <p class="detail__toptext">
+            食器洗浄乾燥機
+          </p>
+          <p class="detail__bottomtext">
+            コンパクトサイズながら一度にたくさんの食器が洗え、後片づけの時間がグンと短くなります。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item7.jpg" alt="">
+          <p class="detail__toptext">
+            ソフトクローズ
+          </p>
+          <p class="detail__bottomtext">
+            閉まる直前にゆっくりと動き指挟み等の事故防止や閉める時の不快な音をシャットアウトします。（※コンロ横引出しは除く）
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item8.jpg" alt="">
+          <p class="detail__toptext">
+            ガラストップガスコンロ
+          </p>
+          <p class="detail__bottomtext">
+            お手入れしやすいガラストップ。立ち消え安全装置や、温度調節機能を左右バーナーに搭載。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/kitchen/kitchen_item9.jpg" alt="">
+          <p class="detail__toptext">
+            IHクッキングヒーター
+          </p>
+          <p class="detail__bottomtext">
+            火を使わない安心のIHクッキングヒーターを採用。表面がフラットなので汚れてもサッとひと拭き。
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="footer__attention-area d-flex c_align-items-c">
+        <div class="c_container">
+          <p class="footer__attention-text">
+            ※掲載の写真は当社モデルルーム・メーカー写真等であり、タイプにより含まれないものや、実際とは設備・仕様等が異なる場合があります。また一部オプション（有料）が含まれています。<br>
+            ※家具・備品等は販売価格に含まれておりません。予めご了承下さい。
+          </p>
+        </div>
+      </div>
+      <div class="footer__top-area d-flex justify-content-center c_align-items-c">
+        <div class="footer__top-left-box">
+          <p class="footer__top-left-text">
+            [お問い合わせ]<br>
+            サングレートマンションギャラリー
+          </p>
+        </div>
+        <div class="footer__top-middle-box d-flex justify-content-center c_align-items-c">
+          <img class="footer__top-middle-img" src="image/common/freedial.jpg" alt="">
+          <p class="footer__top-middle-text">
+            0120-433-630
+          </p>
+        </div>
+        <div class="footer__top-right-box">
+          <p class="footer__top-right-text">
+            営業時間 10：00～18：00 （定休日なし）<br>
+            ※携帯電話からもご利用になれます。
+          </p>
+        </div>
+      </div>
+      <div class="footer__middle-area d-flex justify-content-center c_align-items-c">
+        <img class="footer__middle-img" src="image/common/footer.jpg" alt="footer-logo">
+      </div>
+      <div class="footer__bottom-area justify-content-center c_align-items-c">
+        <div class="footer__bottom-box footer__bottom-box--left d-flex c_align-items-c">
+          <a href="">
+            <p class="footer__bottom-text  text-center px-3">
+              サングレート姪浜駅南<br>
+              FIRST
+            </p>
+          </a>
+        </div>
+        <div class="footer__bottom-box footer__bottom-box--right d-flex c_align-items-c ">
+          <a href="">
+            <p class="footer__bottom-text text-center px-3">
+              サングレート姪浜駅南<br>
+              NEXT
+            </p>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery Javascript読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap Javascript読み込み-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Javascript読み込み -->
+    <script src="script/script.js"></script>
+</body>
+
+</html>
