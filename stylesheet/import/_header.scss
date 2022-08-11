@@ -1,0 +1,31 @@
+/* ヘッダースタイル共通 */
+.header {
+  height: 90px;
+  background-color: #000000;
+  font-family: serif;
+}
+
+.header__container {
+  align-items: center;
+}
+
+.header__logo-img {
+  height: 100%;
+}
+
+.header__menu-item {
+  align-items: center;
+  height: 56.8px;
+  margin-right: 18.9px;
+
+}
+
+.header__menu-item--background {}
+
+.header__menu-item--background-left {
+  background-color: rgb(99, 99, 99);
+}
+
+.header__menu-item--background-right {
+  background-color: rgb(130, 130, 130);
+}

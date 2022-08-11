@@ -1,8 +1,44 @@
-@use "import/settings";
-@use "import/reset";
-@use "import/responsive";
-@use "import/variables";
-@use "import/mixin";
+
+@use "../import/reset";
+@use "../import/mixin";
+@use "../import/common";
+@use "../import/header";
+@use "../import/footer";
 
 
 
+
+.topview__img {
+}
+
+
+.topview__container {
+}
+
+.doorlineup1__container {
+  margin-top: 76.2px;
+}
+
+.doorlineup1__left-text {
+  margin-top: 15.8px;
+}
+
+.doorlineup1__right-img--right {
+  margin-left: 40px;
+}
+.doorlineup1__right-text {
+  margin-top: 15.8px;
+}
+
+.doorlineup2__conatainer {
+  margin-top: 78.2px;
+  margin-bottom: 117.2px;
+}
+
+.doorlineup2__product-box {
+  margin-left: 39px;
+}
+.doorlineup2__text {
+  font-size: 20px;
+  margin-left: 50px;
+}

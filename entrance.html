@@ -22,52 +22,57 @@
   <link rel="stylesheet" href="stylesheet/entrance/responsive_entrance.css">
   <!-- Font Awesome読み込み -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-  <!-- jQuery Javascript読み込み -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- Bootstrap Javascript読み込み-->
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <!-- Javascript読み込み -->
-  <script src="script/script.js"></script>
+
 </head>
 
 <body>
   <!-- Header -->
   <header class="header" id="header">
-    <div class="c_container">
+    <div class="header__container d-flex justify-content-between">
       <div class="header__logo-area">
         <img class="header__logo-img" src="image/common/logo.png" alt="Logo">
       </div>
-      <div class="header__menu-area">
+      <div class="header__menu-area align-middle">
         <nav>
-          <ul class="header__menu-list">
-            <li class="header__menu-item">
+          <ul class="header__menu-list  d-flex justify-content-between align-middle">
+            <li class="header__menu-item  d-flex text-center c_align-items-c px-3">
               <a href="">
-                <span class="header__menu-toptext">Location</span><br>
-                <span class="header__menu-bottomtext">ロケーション</span>
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Location</span><br>
+                  <span class="header__menu-bottomtext">ロケーション</span>
+                </p>
               </a>
             </li>
-            <li class="header__menu-item">
+            <li class="header__menu-item d-flex c_align-items-c text-center px-3">
               <a href="">
-                <span class="header__menu-toptext">Quality</span><br>
-                <span class="header__menu-bottomtext">設備仕様</span>
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Quality</span><br>
+                  <span class="header__menu-bottomtext">設備仕様</span>
+                </p>
               </a>
             </li>
-            <li class="header__menu-item">
+            <li class="header__menu-item d-flex c_align-items-c text-center px-3">
               <a href="">
-                <span class="header__menu-toptext">Orderstyle</span><br>
-                <span class="header__menu-bottomtext">オーダースタイル</span>
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Orderstyle</span><br>
+                  <span class="header__menu-bottomtext">オーダースタイル</span>
+                </p>
               </a>
             </li>
-            <li class="header__menu-item header__menu-item--background">
+            <li class="header__menu-item header__menu-item--background header__menu-item--background-left d-flex c_align-items-c text-center px-3">
               <a href="">
-                <span class="header__menu-toptext header__menu-item-bac">サングレート姪浜駅南</span><br>
-                <span class="header__menu-bottomtext">FIRST</span>
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">サングレート姪浜駅南</span><br>
+                  <span class="header__menu-bottomtext">FIRST</span>
+                </p>
               </a>
             </li>
-            <li class="header__menu-item header__menu-item--background">
+            <li class="header__menu-item header__menu-item--background header__menu-item--background-right d-flex c_align-items-c text-center px-3">
               <a href="">
-                <span class="header__menu-toptext header__menu-toptext--background">サングレート姪浜駅南</span><br>
-                <span class="header__menu-bottomtext header__menu-bottomtext--background">NEXT</span>
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">サングレート姪浜駅南</span><br>
+                  <span class="header__menu-bottomtext">NEXT</span>
+                </p>
               </a>
             </li>
           </ul>
@@ -78,55 +83,63 @@
 
   <main>
     <!-- トップリボン -->
-    <section class="topindex" id="topindex">
+    <section class="topindex d-flex c_align-items-c" id="topindex">
       <div class="c_container">
-        <p class="topindex__toptext">QUALITY</p>
-        <p class="topindex__bottomtext">設備仕様</p>
+        <p class="topindex__toptext text-center">QUALITY</p>
+        <p class="topindex__bottomtext text-center">設備仕様</p>
       </div>
     </section>
 
     <!-- トップメニュー -->
-    <section class="topmenu" id="topmenu">
-      <div class="c_container">
+    <section class="topmenu " id="topmenu">
+      <div class="c_container topmenu__container">
         <ul class="topmenu__list-area">
-          <li class="topmenu__list-item topmenue__list-item--thispage">
-            <a href="">
-              <p class="topmenu__list-text">ENTRANCE</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+          <li class="topmenu__list-item topmenue__list-item--thispage d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="">
+              <p class="topmenu__list-text d-inline-block">ENTRANCE</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow pull-right"></i>
             </a>
           </li>
-          <li class="topmenu__list-item">
-            <a href="">
-              <p class="topmenu__list-text">KITCHEN</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="">
+              <p class="topmenu__list-text d-inline-block">KITCHEN</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="topmenu__list-item">
-            <a href="">
-              <p class="topmenu__list-text">BATH ROOM</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="">
+              <p class="topmenu__list-text d-inline-block">BATH ROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="topmenu__list-item">
-            <a href="">
-              <p class="topmenu__list-text">POWDER ROOM</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="">
+              <p class="topmenu__list-text d-inline-block">POWDER ROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="topmenu__list-item">
-            <a href="">
-              <p class="topmenu__list-text">RESTROOM</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="">
+              <p class="topmenu__list-text d-inline-block">RESTROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="topmenu__list-item">
-            <a href="">
-              <p class="topmenu__list-text">ECOLOGY & ECONOMY</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="">
+              <p class="topmenu__list-text d-inline-block">ECOLOGY & ECONOMY</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="topmenu__list-item">
-            <a href="">
-              <p class="topmenu__list-text">SECURITY & STRUCTURE</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="">
+              <p class="topmenu__list-text d-inline-block">SECURITY & STRUCTURE</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
-          <li class="topmenu__list-item">
-            <a href="">
-              <p class="topmenu__list-text">EQUIPMENT</p><i class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="">
+              <p class="topmenu__list-text d-inline-block">EQUIPMENT</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
             </a>
           </li>
         </ul>
@@ -135,7 +148,7 @@
 
     <!-- トップ -->
     <section class="topview" id="topview">
-      <div class="c_container">
+      <div class="c_container c_align-items-c topview__container d-flex justify-content-between">
         <div class="topview__heading-area">
           <h1 class="topview__heading">
             ENTRANCE
@@ -160,8 +173,8 @@
 
     <!-- Discription -->
     <section class="discription" id="discription">
-      <div class="c_container">
-        <h2 class="discription__heading">
+      <div class="c_container text-center discription__container">
+        <h2 class="d-inline-block  c_align-items-c discription__heading px-4">
           安全･安心設計の玄関ドア
         </h2>
         <p class="discription__text">
@@ -172,7 +185,7 @@
 
     <!-- ドアラインナップ1 -->
     <section class="doorlineup1" id="doorlineup1">
-      <div class="c_container">
+      <div class="c_container  d-flex justify-content-between align-middle doorlineup1__container">
         <div class="doorlineup1__left-area">
           <img class="doorlineup1__left-img" src="image/entrance/entrance_door-lixil.jpg" alt="entrance-door">
           <p class="doorlineup1__left-text">優雅に迎える、送り出す、住宅の顔となる玄関</p>
@@ -180,7 +193,8 @@
         <div class="doorlineup1__right-area">
           <div class="doorlineup1__right-box">
             <img class="doorlineup1__right-img" src="image/entrance/entrance_cabinet1.jpg" alt="entrance-cabinet">
-            <img class="doorlineup1__right-img" src="image/entrance/entrance_cabinet2.jpg" alt="entrance-cabinet">
+            <img class="doorlineup1__right-img doorlineup1__right-img--right" src="image/entrance/entrance_cabinet2.jpg"
+              alt="entrance-cabinet">
           </div>
           <p class="doorlineup1__right-text">
             収納豊富な姿鏡付き大型下足入れ（足元照明はオプション）
@@ -191,13 +205,13 @@
 
     <!-- ドアラインナップ2 -->
     <section class="doorlineup2">
-      <div class="c_container">
+      <div class="c_container c_align-items-c doorlineup2__conatainer d-flex justify-content-between">
         <div class="doorlineup2__text-area">
           <p class="doorlineup2__text">
             艶やかな上質感が際立つ建具
           </p>
         </div>
-        <div class="doorlineup2__product-area">
+        <div class="doorlineup2__product-area d-flex justify-content-between align-middle">
           <div class="doorlineup2__product-box">
             <img class="doorlineup2__product-img" src="image/entrance/entrance_door1.jpg" alt="entrance-door">
             <p class="doorlineup2__product-text">
@@ -228,7 +242,7 @@
 
     <!-- Footer -->
     <footer class="footer" id="footer">
-      <div class="footer__attention-area">
+      <div class="footer__attention-area d-flex c_align-items-c">
         <div class="c_container">
           <p class="footer__attention-text">
             ※掲載の写真は当社モデルルーム・メーカー写真等であり、タイプにより含まれないものや、実際とは設備・仕様等が異なる場合があります。また一部オプション（有料）が含まれています。<br>
@@ -236,14 +250,14 @@
           </p>
         </div>
       </div>
-      <div class="footer__top-area">
+      <div class="footer__top-area d-flex justify-content-center c_align-items-c">
         <div class="footer__top-left-box">
           <p class="footer__top-left-text">
             [お問い合わせ]<br>
             サングレートマンションギャラリー
           </p>
         </div>
-        <div class="footer__top-middle-box">
+        <div class="footer__top-middle-box d-flex justify-content-center c_align-items-c">
           <img class="footer__top-middle-img" src="image/common/freedial.jpg" alt="">
           <p class="footer__top-middle-text">
             0120-433-630
@@ -256,25 +270,34 @@
           </p>
         </div>
       </div>
-      <div class="footer__middle-area">
+      <div class="footer__middle-area d-flex justify-content-center c_align-items-c">
         <img class="footer__middle-img" src="image/common/footer.jpg" alt="footer-logo">
       </div>
-      <div class="footer__bottom-area">
-        <div class="footer__bottom-box">
-          <p class="footer__bottom-text">
-            サングレート姪浜駅南<br>
-            FIRST
-          </p>
+      <div class="footer__bottom-area d-flex justify-content-center c_align-items-c">
+        <div class="footer__bottom-box footer__bottom-box--left d-flex c_align-items-c">
+          <a href="">
+            <p class="footer__bottom-text  text-center px-3">
+              サングレート姪浜駅南<br>
+              FIRST
+            </p>
+          </a>
         </div>
-        <div class="footer__bottom-box">
-          <p class="footer__bottom-text">
-            サングレート姪浜駅南<br>
-            NEXT
-          </p>
+        <div class="footer__bottom-box footer__bottom-box--right d-flex c_align-items-c ">
+          <a href="">
+            <p class="footer__bottom-text text-center px-3">
+              サングレート姪浜駅南<br>
+              NEXT
+            </p>
+          </a>
         </div>
       </div>
     </footer>
-
+    <!-- jQuery Javascript読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap Javascript読み込み-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Javascript読み込み -->
+    <script src="script/script.js"></script>
 </body>
 
 </html>
