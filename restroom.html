@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>RESTROOM</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <!-- favicon読み込み -->
+  <link rel="icon" href="">
+  <!-- Viewport読み込み -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+  <!-- サムネイル読み込み -->
+  <meta name="thumbnail" content="" />
+  <!-- BootstrapのCSS読み込み -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- 個別ページStyle読み込み -->
+  <link rel="stylesheet" href="stylesheet/restroom/restroom.css">
+  <!-- Font Awesome読み込み -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__container d-flex justify-content-between">
+      <div class="header__logo-area">
+        <img class="header__logo-img" src="image/common/logo.png" alt="Logo">
+      </div>
+      <div class="header__menu-area headerMenu navWrapper align-middle">
+        <nav class="headerNav">
+          <ul class="header__menu-list navList d-lg-flex justify-content-between align-middle">
+            <li class="header__menu-item navItem d-flex text-center c_align-items-c px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Location</span><br>
+                  <span class="header__menu-bottomtext">ロケーション</span>
+                </p>
+              </a>
+            </li>
+            <li class="header__menu-item navItem d-flex c_align-items-c text-center px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Quality</span><br>
+                  <span class="header__menu-bottomtext">設備仕様</span>
+                </p>
+              </a>
+            </li>
+            <li class="header__menu-item navItem d-flex c_align-items-c text-center px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">Orderstyle</span><br>
+                  <span class="header__menu-bottomtext">オーダースタイル</span>
+                </p>
+              </a>
+            </li>
+            <li
+              class="header__menu-item header__menu-item--background header__menu-item--background-left navItem d-flex c_align-items-c text-center px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">サングレート姪浜駅南</span><br>
+                  <span class="header__menu-bottomtext">FIRST</span>
+                </p>
+              </a>
+            </li>
+            <li
+              class="header__menu-item header__menu-item--background header__menu-item--background-right navItem d-flex c_align-items-c text-center px-3">
+              <a href="">
+                <p class="header__menu-text">
+                  <span class="header__menu-toptext">サングレート姪浜駅南</span><br>
+                  <span class="header__menu-bottomtext">NEXT</span>
+                </p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- ハンバーガーメニューボタン -->
+      <div class="burgerButton">
+        <span class="bar bar_top"></span>
+        <span class="bar bar_mid"></span>
+        <span class="bar bar_bottom"></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- トップリボン -->
+    <section class="topindex d-flex c_align-items-c" id="topindex">
+      <div class="c_container">
+        <p class="topindex__toptext text-center">QUALITY</p>
+        <p class="topindex__bottomtext text-center">設備仕様</p>
+      </div>
+    </section>
+
+    <!-- トップメニュー -->
+    <section class="topmenu " id="topmenu">
+      <div class="c_container topmenu__container">
+        <ul class="topmenu__list-area">
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="entrance.html">
+              <p class="topmenu__list-text d-inline-block">ENTRANCE</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow pull-right"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="kitchen.html">
+              <p class="topmenu__list-text d-inline-block">KITCHEN</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="bathroom.html">
+              <p class="topmenu__list-text d-inline-block">BATH ROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="powderroom.html">
+              <p class="topmenu__list-text d-inline-block">POWDER ROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item topmenu__list-item--thispage d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="restroom.html">
+              <p class="topmenu__list-text d-inline-block">RESTROOM</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="ecology-economy.html">
+              <p class="topmenu__list-text d-inline-block">ECOLOGY & ECONOMY</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="security-structure.html">
+              <p class="topmenu__list-text d-inline-block">SECURITY & STRUCTURE</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+          <li class="topmenu__list-item d-flex">
+            <a class="w-100 d-flex c_align-items-c" href="equipment.html">
+              <p class="topmenu__list-text d-inline-block">EQUIPMENT</p><i
+                class="fa-solid fa-chevron-right topmenu__list-arrow"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- トップ -->
+    <section class="topview" id="topview">
+      <div class="c_container c_align-items-c topview__container d-flex justify-content-between">
+        <div class="topview__heading-area">
+          <h1 class="topview__heading">
+            RESTROOM
+          </h1>
+          <p class="topview__heading-toptext">
+            清潔感にこだわったレストルーム。
+          </p>
+          <p class="topview__heading-bottomtext">
+            ほっと一息つけるひとときをお届けするために、<br>
+            機能性と居心地の良さを両立したトイレ空間を創造しました。<br>
+            高級感漂う大理石調フローリングや<br>
+            手洗いカウンターを備えて、<br>
+            レストルーム仕様に仕上げています。<br>
+            時代を反映した清潔なオート便器洗浄や省エネ性能、<br>
+            お手入れのしやすさも魅力のひとつ。<br>
+            これからの暮らしと健やかな毎日を<br>
+            トイレ空間から考えました。<br>
+          </p>
+        </div>
+        <div class="topview__image-area">
+          <img class="topview__img" src="image/restroom/restroom_top.jpg" alt="restroom">
+        </div>
+      </div>
+    </section>
+
+    <!-- Discription -->
+    <section class="discription" id="discription">
+      <div class="c_container text-center discription__container">
+        <h2 class="d-inline-block  c_align-items-c discription__heading px-4">
+          使うたびに清潔、ずっと省エネのレストルーム
+        </h2>
+        <p class="discription__text">
+          居心地のいい空間に、一歩先の清潔機能をプラス。<br>
+          毎日何度も使うトイレ空間から、爽やかな暮らしを演出。
+        </p>
+      </div>
+    </section>
+
+    <!-- 特徴 -->
+    <section class="feature" id="feature">
+      <div class="c_container">
+        <div class="d-flex justify-content-between align-middle feature__container">
+          <div class="feature__left-area">
+            <img class="feature__left-img" src="image/restroom/restroom_cabinet.jpg" alt="restroom">
+            <div class="feature__text-area">
+              <p class="feature__top-text">
+                手洗いカウンター
+              </p>
+              <p class="feature__bottom-text">
+                上質感あるデザインの手洗い付カウンターをトイレに標準設置。<br>
+                ひとクラス上のレストルーム空間を実現しました。</p>
+            </div>
+          </div>
+          <div class="feature__right-area">
+            <img class="feature__right-img" src="image/restroom/restroom_counter.jpg" alt="feature">
+            <div class="feature__text-area">
+              <p class="feature__top-text">
+                ダウンライトと吊戸棚
+              </p>
+              <p class="feature__bottom-text">
+                ダウンライトと吊戸棚を設置。掃除用具やトイレ用品などをすっきり収納し、空間を広く使うことができます。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 設備詳細 -->
+    <section class="detail">
+      <div class="c_container detail__container">
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet1.jpg" alt="">
+          <p class="detail__toptext">
+            トルネード洗浄
+          </p>
+          <p class="detail__bottomtext">
+            ちから強く渦を巻くようなトルネード水流で、汚れやすい部分もしっかり洗浄。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet2.jpg" alt="">
+          <p class="detail__toptext">
+            リモコン付きウォシュレット
+          </p>
+          <p class="detail__bottomtext">
+            スイッチ表示が大きくて見やすく、操作もしやすいリモコン付きウォシュレットです。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet3.jpg" alt="">
+          <p class="detail__toptext">
+            オート便器洗浄
+          </p>
+          <p class="detail__bottomtext">
+            座っている時間でセンサーが大・小を判断し、便器から立ち上がると、自動で便器の水を流します。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet4.jpg" alt="">
+          <p class="detail__toptext">
+            プレミスト
+          </p>
+          <p class="detail__bottomtext">
+            便座に座ると自動で便器にミスト（水）をふきかけて水のクッションを作ります。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet5.jpg" alt="">
+          <p class="detail__toptext">
+            セフィオンテクト
+          </p>
+          <p class="detail__bottomtext">
+            ナノレベルでツルツルに仕上げた「汚れが付きにくく落ちやすい」セフィオンテクト便器を採用。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet6.jpg" alt="">
+          <p class="detail__toptext">
+            お掃除リフト
+          </p>
+          <p class="detail__bottomtext">
+            ワンプッシュでウォシュレット前方部が持ち上がりすき間をラクにお掃除できます。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet7.jpg" alt="">
+          <p class="detail__toptext">
+            ノズルきれい
+          </p>
+          <p class="detail__bottomtext">
+            ウォシュレット使用後「きれい除菌水」でノズルの内側も外側も自動洗浄・除菌します。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet8.jpg" alt="">
+          <p class="detail__toptext">
+            大理石調フローリング
+          </p>
+          <p class="detail__bottomtext">
+            高級感あふれる大理石調で、継ぎ目の少ない大判サイズの床材を使用。
+          </p>
+        </div>
+        <div class="detail__item">
+          <img class="detail-img" src="image/restroom/restroom_toilet9.jpg" alt="">
+          <p class="detail__toptext">
+            手洗いカウンター下収納
+          </p>
+          <p class="detail__bottomtext">
+            手洗いカウンターの下には、掃除ブラシと洗剤2本程度を収納可能です。
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="footer__attention-area d-flex c_align-items-c">
+        <div class="c_container">
+          <p class="footer__attention-text">
+            ※掲載の写真は当社モデルルーム・メーカー写真等であり、タイプにより含まれないものや、実際とは設備・仕様等が異なる場合があります。また一部オプション（有料）が含まれています。<br>
+            ※家具・備品等は販売価格に含まれておりません。予めご了承下さい。
+          </p>
+        </div>
+      </div>
+      <div class="footer__top-area d-flex justify-content-center c_align-items-c">
+        <div class="footer__top-left-box">
+          <p class="footer__top-left-text">
+            [お問い合わせ]<br>
+            サングレートマンションギャラリー
+          </p>
+        </div>
+        <div class="footer__top-middle-box d-flex justify-content-center c_align-items-c">
+          <img class="footer__top-middle-img" src="image/common/freedial.jpg" alt="">
+          <p class="footer__top-middle-text">
+            0120-433-630
+          </p>
+        </div>
+        <div class="footer__top-right-box">
+          <p class="footer__top-right-text">
+            営業時間 10：00～18：00 （定休日なし）<br>
+            ※携帯電話からもご利用になれます。
+          </p>
+        </div>
+      </div>
+      <div class="footer__middle-area d-flex justify-content-center c_align-items-c">
+        <img class="footer__middle-img" src="image/common/footer.jpg" alt="footer-logo">
+      </div>
+      <div class="footer__bottom-area justify-content-center c_align-items-c">
+        <div class="footer__bottom-box footer__bottom-box--left d-flex c_align-items-c">
+          <a href="">
+            <p class="footer__bottom-text  text-center px-3">
+              サングレート姪浜駅南<br>
+              FIRST
+            </p>
+          </a>
+        </div>
+        <div class="footer__bottom-box footer__bottom-box--right d-flex c_align-items-c ">
+          <a href="">
+            <p class="footer__bottom-text text-center px-3">
+              サングレート姪浜駅南<br>
+              NEXT
+            </p>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery Javascript読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap Javascript読み込み-->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Javascript読み込み -->
+    <script src="script/script.js"></script>
+</body>
+
+</html>
