@@ -829,108 +829,153 @@ p {
     display: none;
   }
 }
-.feature__container {
-  margin-top: 78.2px;
+.option {
+  margin-top: 43.7px;
+  margin-bottom: 26.2px;
 }
 
-.feature__left-area {
-  width: 620px;
+.option__outertext {
+  margin-bottom: 26.2px;
 }
 
-.feature__right-area {
-  width: 620px;
+.option__area {
+  background-color: #ffffff;
+  margin-bottom: 80px;
 }
 
-.feature__text-area {
-  margin-top: 14.8px;
+.option__heading-box {
+  justify-content: start;
 }
 
-.feature__top-text {
+.option__heading-text {
+  line-height: 49px;
   font-size: 20px;
+  background-color: #58595B;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.feature__top-text-small {
-  font-size: 16px;
+.option__heading-subtext {
+  line-height: 49px;
+  font-size: 22px;
+  color: #333333;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.feature__bottom-text {
-  margin-top: 12.6px;
+.option__discription-box {
+  margin-top: 15.3px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1202.4px;
 }
 
-.detail {
-  margin-top: 89.3px;
-  margin-bottom: 100.4px;
+.option__disctiption-text {
+  color: #333333;
 }
 
-.detail__container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 40px;
+.option__detail-content {
+  flex-direction: column;
 }
 
-.detail__item {
-  margin-top: 40px;
+.option__detail-box {
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 27.3px;
+  padding-bottom: 40px;
+  width: 960px;
+  color: #333333;
 }
 
-.detail-img {
-  width: 100%;
-}
-
-.detail__toptext {
-  margin-top: 14.7px;
+.option__detail-content-heading-text {
   font-size: 20px;
+  color: #333333;
 }
 
-.detail__bottomtext {
-  margin-top: 10.6px;
+.option__center-img {
+  margin-top: 20px;
+}
+
+.option__detail-content-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.option__detail-content-img {
+  margin-bottom: 33.2px;
+}
+
+.option__detail-content-text-small {
+  margin-top: 10px;
+  color: #333333;
+  font-size: 14px;
+}
+
+.option__detail-content-img--1-righttop {
+  width: 282px;
+}
+
+.option__detail-content-img--1-rightbottom {
+  margin-top: 34px;
+}
+
+.option__detail-content--2-left {
+  width: 440.9px;
+}
+
+.option__detail-content--2-right {
+  width: 440.4px;
+}
+
+.option__discription-box--3 {
+  text-align: center;
+}
+
+.option__disctiption-text--4-top {
+  font-size: 20px;
+  color: #F81B1B;
+}
+
+.option__disctiption-text--4-top2 {
+  font-size: 14px;
+}
+
+.option__detail-box--4 {
+  flex-wrap: wrap;
 }
 
 @media all and (max-width: 768px) {
-  .topview__img {
-    width: 100%;
-  }
-  .feature__container {
+  .option__heading-box {
     flex-direction: column;
   }
-  .feature__left-area {
+  .option__heading-text {
     width: 100%;
   }
-  .feature__right-area {
+  .option__heading-subtext {
+    width: 88.2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+  .option__discription-box {
+    width: 88.2%;
+  }
+  .option__center-img {
     width: 100%;
   }
-  .feature__left-img {
-    width: 100%;
-  }
-  .feature__right-area {
-    margin-top: 75.2px;
-  }
-  .feature__right-img {
-    width: 100%;
-  }
-  .kitchen-howto__heading-box {
-    height: auto;
-  }
-  .kitchen-howto__heading-text {
-    font-size: 44px;
-  }
-  .kitchen-howto__heading-number {
-    font-size: 44px;
-  }
-  .kitchen-howto__image-box {
+  .option__detail-box {
     flex-direction: column;
+    width: 88.2%;
+  }
+  .option__detail-content-img {
     width: 100%;
   }
-  .kitchen-howto__image-items {
-    flex-direction: column;
+  .option__detail-content--2-left {
     width: 100%;
   }
-  .kitchen-howto__image-content-left {
+  .option__detail-content--2-right {
     width: 100%;
   }
-  .kitchen-howto__image-content-right {
-    width: 100%;
-  }
-  .detail__container {
-    grid-template-columns: 1fr;
-  }
-}/*# sourceMappingURL=powderroom.css.map */
+}/*# sourceMappingURL=ecology-economy.css.map */

@@ -523,6 +523,7 @@ p {
 }
 
 .topview2__container {
+  position: relative;
   margin-top: 80px;
   justify-content: center;
 }
@@ -546,6 +547,12 @@ p {
 .topview2__heading-bottomtext {
   text-align: center;
   margin-top: 14px;
+}
+
+.topview2__ecomark-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .discription__container {
@@ -631,6 +638,7 @@ p {
 @media all and (max-width: 768px) {
   .header {
     position: fixed;
+    z-index: 10;
     top: 0;
     width: 100%;
   }
