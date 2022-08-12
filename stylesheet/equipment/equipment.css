@@ -913,6 +913,23 @@ p {
   margin-top: 12.6px;
 }
 
+.document {
+  margin-bottom: 80px;
+}
+
+.document__top-img-sp {
+  display: none;
+}
+
+.document__bottom-img-pc {
+  margin-top: 74px;
+}
+
+.document__bottom-img-sp {
+  display: none;
+  margin-top: 74px;
+}
+
 @media all and (max-width: 768px) {
   .topview__img {
     width: 100%;
@@ -982,4 +999,16 @@ p {
   .feature__right-img {
     width: 100%;
   }
-}/*# sourceMappingURL=bathroom.css.map */
+  .document__top-img-pc {
+    display: none;
+  }
+  .document__top-img-sp {
+    display: inherit;
+  }
+  .document__bottom-img-pc {
+    display: none;
+  }
+  .document__bottom-img-sp {
+    display: inherit;
+  }
+}/*# sourceMappingURL=equipment.css.map */

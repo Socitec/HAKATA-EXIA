@@ -522,6 +522,32 @@ p {
   margin-top: 14px;
 }
 
+.topview2__container {
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.topview2__heading-area {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.topview2__heading {
+  text-align: center;
+  font-size: 32px;
+}
+
+.topview2__heading-toptext {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 25.8px;
+}
+
+.topview2__heading-bottomtext {
+  text-align: center;
+  margin-top: 14px;
+}
+
 .discription__container {
   margin-top: 80.4px;
 }
@@ -557,6 +583,12 @@ p {
     width: 100%;
   }
   .topview__image-area {
+    margin-top: 96px;
+  }
+  .topview2__heading-area {
+    width: 100%;
+  }
+  .topview2__image-area {
     margin-top: 96px;
   }
 }
