@@ -897,6 +897,14 @@ p {
   margin-right: auto;
 }
 
+.workspace__img-pc {
+  display: inherit;
+}
+
+.workspace__img-sp {
+  display: none;
+}
+
 .workspace__text {
   margin-top: 15.3px;
 }
@@ -979,6 +987,22 @@ p {
     width: 100%;
   }
   .kitchen-howto__image-content-right {
+    width: 100%;
+  }
+  .kitchen-howto__line {
+    width: 1px;
+    margin-top: 0;
+    height: 0;
+    width: 100%;
+  }
+  .workspace__main-area {
+    width: 100%;
+  }
+  .workspace__img-pc {
+    display: none;
+  }
+  .workspace__img-sp {
+    display: inherit;
     width: 100%;
   }
   .detail__container {
