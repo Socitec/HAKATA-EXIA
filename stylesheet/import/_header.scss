@@ -100,6 +100,11 @@
     transform: translate(-50%,-8px) rotate(-45deg);
     transition: transform .3s;
   }
+
+  .burgerButton-menu-text {
+    text-align: center;
+  }
+  
   /* ハンバーガーメニュー内スタイル */
   .navWrapper{
     transform: translateX(100%);
