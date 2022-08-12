@@ -36,7 +36,11 @@
 
 
 /* ハンバーガーメニュー初期非表示 */
-.burgerButton {
+.burgerButton-area {
+  display: none;
+}
+
+.burgerButton-menu-text {
   display: none;
 }
 
@@ -60,6 +64,13 @@
   
   /*ハンバーガーメニュー */
   /* ハンバーガーメニューボタン */
+  .burgerButton-area {
+    display: block;
+  }
+  .burgerButton-menu-text {
+    display: block;
+  }
+
   .burgerButton{
     display: block;
     width: 60px;
@@ -104,7 +115,7 @@
   .burgerButton-menu-text {
     text-align: center;
   }
-  
+
   /* ハンバーガーメニュー内スタイル */
   .navWrapper{
     transform: translateX(100%);

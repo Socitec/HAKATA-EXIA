@@ -630,7 +630,11 @@ p {
 
 /* ハンバーガーメニュー */
 /* ハンバーガーメニュー初期非表示 */
-.burgerButton {
+.burgerButton-area {
+  display: none;
+}
+
+.burgerButton-menu-text {
   display: none;
 }
 
@@ -647,6 +651,12 @@ p {
   }
   /*ハンバーガーメニュー */
   /* ハンバーガーメニューボタン */
+  .burgerButton-area {
+    display: block;
+  }
+  .burgerButton-menu-text {
+    display: block;
+  }
   .burgerButton {
     display: block;
     width: 60px;
