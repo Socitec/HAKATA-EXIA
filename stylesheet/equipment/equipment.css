@@ -449,7 +449,14 @@ main {
   background-color: #231815;
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
   color: #fff;
 }
 
@@ -511,6 +518,10 @@ p {
 
 .topview__heading {
   font-size: 32px;
+}
+
+.topview__container {
+  margin-top: 60px;
 }
 
 .topview__heading-toptext {

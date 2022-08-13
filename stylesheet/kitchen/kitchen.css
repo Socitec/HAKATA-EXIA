@@ -449,7 +449,14 @@ main {
   background-color: #231815;
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
   color: #fff;
 }
 
@@ -511,6 +518,10 @@ p {
 
 .topview__heading {
   font-size: 32px;
+}
+
+.topview__container {
+  margin-top: 60px;
 }
 
 .topview__heading-toptext {
@@ -974,7 +985,7 @@ p {
     width: 100%;
   }
   .kitchen-structure__right-area {
-    margin-top: 75.2px;
+    margin-top: 39.9px;
   }
   .kitchen-structure__right-img {
     width: 100%;
@@ -1008,6 +1019,25 @@ p {
     height: 0;
     width: 100%;
   }
+  .kitchen-howto__container {
+    margin-top: 93.1px;
+  }
+  .kitchen-howto__image-box {
+    margin-top: 80px;
+  }
+  .kitchen-howto__image-picture-img-left {
+    margin-bottom: 40px;
+  }
+  .kitchen-howto__image-picture-img-left:last-child {
+    margin-bottom: 20px;
+  }
+  .kitchen-howto__image-discription {
+    margin-bottom: 20px;
+  }
+  .kitchen-howto__image-picture-img-right {
+    width: 100%;
+    margin-top: 40px;
+  }
   .workspace__main-area {
     width: 100%;
   }
@@ -1018,7 +1048,26 @@ p {
     display: inherit;
     width: 100%;
   }
+  .topview__container--2 {
+    margin-top: 175px;
+  }
+  .kitchen-structure__container {
+    flex-direction: column;
+  }
+  .kitchen-structure__left-area {
+    width: 100%;
+  }
+  .kitchen-structure__right-area {
+    width: 100%;
+  }
+  .detail {
+    margin-top: 50px;
+  }
   .detail__container {
     grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .detail__item:first-child {
+    margin-top: 0;
   }
 }/*# sourceMappingURL=kitchen.css.map */
