@@ -50,6 +50,11 @@ p {
 .topmenu__list-item {
   height: 48.01px;
   background-color: #58595B;
+  transition: all 0.5s 0s ease;
+}
+
+.topmenu__list-item:hover {
+  background-color: #9DA0A6;
 }
 
 .topmenu__list-item--thispage {
