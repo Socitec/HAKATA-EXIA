@@ -970,6 +970,10 @@ p {
   margin-top: 12.6px;
 }
 
+.feature__left-img--sp {
+  display: none;
+}
+
 .document {
   margin-bottom: 80px;
 }
@@ -990,6 +994,12 @@ p {
 @media all and (max-width: 768px) {
   .topview__img {
     width: 100%;
+  }
+  .detail__container {
+    gap: 30px;
+  }
+  .detail__item:first-child {
+    margin-top: 0;
   }
   .strength__container {
     flex-direction: column;
@@ -1055,6 +1065,12 @@ p {
   }
   .feature__right-img {
     width: 100%;
+  }
+  .feature__left-img--pc {
+    display: none;
+  }
+  .feature__left-img--sp {
+    display: inherit;
   }
   .document__top-img-pc {
     display: none;
