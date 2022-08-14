@@ -128,7 +128,7 @@ p {
 }
 
 .discription__heading {
-  line-height: 62px;
+  padding: 1rem;
   font-size: 22px;
   border: 1px solid #ffffff;
 }
@@ -174,5 +174,9 @@ p {
 
   .topview2__image-area {
     margin-top: 96px;
+  }
+
+  .discription__heading {
+    width: 85.7%;
   }
 }

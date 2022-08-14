@@ -107,7 +107,7 @@
   }
 
 
-  
+
   .strength__container {
     flex-direction: column;
   }
@@ -115,7 +115,7 @@
   .strength__left-area {
     width: 100%;
   }
-  
+
   .strength__right-area {
     width: 100%;
   }
@@ -125,7 +125,7 @@
   }
 
   .strength__right-area {
-    margin-top: 75.2px;
+    margin-top: 80.4px;
   }
 
   .strength__right-bottom-area {
@@ -166,11 +166,23 @@
     width: 100%;
   }
 
+  .detail {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
   .detail__container {
     grid-template-columns: 1fr;
   }
 
-  
+  .detail__item {
+    margin-top: 10px;
+  }
+
+  .feature {
+    margin-bottom: 200.7px;
+  }
+
   .feature__container {
     flex-direction: column;
   }
@@ -178,7 +190,7 @@
   .feature__left-area {
     width: 100%;
   }
-  
+
   .feature__right-area {
     width: 100%;
   }

@@ -576,7 +576,7 @@ p {
 }
 
 .discription__heading {
-  line-height: 62px;
+  padding: 1rem;
   font-size: 22px;
   border: 1px solid #ffffff;
 }
@@ -613,6 +613,9 @@ p {
   }
   .topview2__image-area {
     margin-top: 96px;
+  }
+  .discription__heading {
+    width: 85.7%;
   }
 }
 /* ヘッダースタイル共通 */
@@ -967,7 +970,7 @@ p {
     width: 100%;
   }
   .strength__right-area {
-    margin-top: 75.2px;
+    margin-top: 80.4px;
   }
   .strength__right-bottom-area {
     margin-top: 60px;
@@ -998,8 +1001,18 @@ p {
   .kitchen-howto__image-content-right {
     width: 100%;
   }
+  .detail {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
   .detail__container {
     grid-template-columns: 1fr;
+  }
+  .detail__item {
+    margin-top: 10px;
+  }
+  .feature {
+    margin-bottom: 200.7px;
   }
   .feature__container {
     flex-direction: column;
