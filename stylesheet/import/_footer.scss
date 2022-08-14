@@ -75,18 +75,32 @@
   .footer__top-area {
     flex-direction: column;
     height: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .footer__top-left-box {
     margin-top: 8.4px;
   }
 
+  .footer__top-left-text {
+    text-align: center;
+  }
+
+  .footer__top-middle-img {
+    width: 11%;
+  }
+
   .footer__top-middle-text {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .footer__top-right-box {
     margin-bottom: 8.4px;
+  }
+
+  .footer__top-right-text {
+    text-align: center;
   }
 
   .footer__bottom-area {
