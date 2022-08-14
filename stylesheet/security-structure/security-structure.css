@@ -879,6 +879,7 @@ p {
 
 .option__outertext {
   margin-bottom: 26.2px;
+  font-size: 22px;
 }
 
 .option__area {
@@ -1105,9 +1106,12 @@ p {
   }
   .option__heading-subtext {
     width: 88.2%;
+    margin-top: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
+    padding-right: 0;
+    line-height: 32px;
   }
   .option__discription-box {
     width: 88.2%;

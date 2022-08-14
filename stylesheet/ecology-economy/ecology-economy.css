@@ -879,6 +879,7 @@ p {
 
 .option__outertext {
   margin-bottom: 26.2px;
+  font-size: 22px;
 }
 
 .option__area {
@@ -961,6 +962,10 @@ p {
   margin-right: auto;
 }
 
+.option__center-img--sp {
+  display: none;
+}
+
 .option__detail-content-text-small {
   margin-top: 10px;
   color: #333333;
@@ -1005,6 +1010,12 @@ p {
 }
 
 @media all and (max-width: 768px) {
+  .topview2__ecomark-img {
+    top: 90px;
+  }
+  .topview2__heading-toptext {
+    margin-top: 146px;
+  }
   .option__heading-box {
     flex-direction: column;
   }
@@ -1013,9 +1024,12 @@ p {
   }
   .option__heading-subtext {
     width: 88.2%;
+    margin-top: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
+    padding-right: 0;
+    line-height: 32px;
   }
   .option__discription-box {
     width: 88.2%;
@@ -1024,6 +1038,12 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+  .option__center-img--pc {
+    display: none;
+  }
+  .option__center-img--sp {
+    display: inherit;
   }
   .option__detail-box {
     flex-direction: column;
@@ -1037,6 +1057,11 @@ p {
   }
   .option__detail-content-img--sp-small2 {
     width: 45.6%;
+  }
+  .option__detail-content-img--sp-small3 {
+    width: 73.2%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .option__detail-content--2-left {
     width: 100%;
