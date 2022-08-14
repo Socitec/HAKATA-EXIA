@@ -973,7 +973,17 @@ p {
   .kitchen-howto__image-content-right {
     width: 100%;
   }
+  .detail {
+    margin-top: 60px;
+  }
   .detail__container {
     grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .detail__item {
+    margin-top: 60px;
+  }
+  .detail__item :first-child {
+    margin-top: 0;
   }
 }/*# sourceMappingURL=powderroom.css.map */
