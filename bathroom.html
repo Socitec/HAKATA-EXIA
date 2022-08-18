@@ -18,79 +18,79 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- 個別ページStyle読み込み -->
   <link rel="stylesheet" href="stylesheet/bathroom/bathroom.css">
+  <!-- 共通ページ用スタイル-->
+  <link rel="stylesheet" href="stylesheet/common.css">
   <!-- Font Awesome読み込み -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
 
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="header" id="header">
-    <div class="header__container d-flex justify-content-between">
-      <div class="header__logo-area">
-        <img class="header__logo-img" src="image/common/logo.png" alt="Logo">
-      </div>
-      <div class="header__menu-area headerMenu navWrapper align-middle">
-        <nav class="headerNav">
-          <ul class="header__menu-list navList d-lg-flex justify-content-between align-middle">
-            <li class="header__menu-item navItem d-flex text-center c_align-items-c px-3">
-              <a href="">
-                <p class="header__menu-text">
-                  <span class="header__menu-toptext">Location</span><br>
-                  <span class="header__menu-bottomtext">ロケーション</span>
-                </p>
-              </a>
-            </li>
-            <li class="header__menu-item navItem d-flex c_align-items-c text-center px-3">
-              <a href="">
-                <p class="header__menu-text">
-                  <span class="header__menu-toptext">Quality</span><br>
-                  <span class="header__menu-bottomtext">設備仕様</span>
-                </p>
-              </a>
-            </li>
-            <li class="header__menu-item navItem d-flex c_align-items-c text-center px-3">
-              <a href="">
-                <p class="header__menu-text">
-                  <span class="header__menu-toptext">Orderstyle</span><br>
-                  <span class="header__menu-bottomtext">オーダースタイル</span>
-                </p>
-              </a>
-            </li>
-            <li
-              class="header__menu-item header__menu-item--background header__menu-item--background-left navItem d-flex c_align-items-c text-center px-3">
-              <a href="">
-                <p class="header__menu-text">
-                  <span class="header__menu-toptext">サングレート姪浜駅南</span><br>
-                  <span class="header__menu-bottomtext">FIRST</span>
-                </p>
-              </a>
-            </li>
-            <li
-              class="header__menu-item header__menu-item--background header__menu-item--background-right navItem d-flex c_align-items-c text-center px-3">
-              <a href="">
-                <p class="header__menu-text">
-                  <span class="header__menu-toptext">サングレート姪浜駅南</span><br>
-                  <span class="header__menu-bottomtext">NEXT</span>
-                </p>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <!-- ハンバーガーメニューボタン -->
-      <div burgerButton-area>
-        <div class="burgerButton">
-          <span class="bar bar_top"></span>
-          <span class="bar bar_mid"></span>
-          <span class="bar bar_bottom"></span>
-        </div>
-        <p class="burgerButton-menu-text">MENU</p>
-      </div>
-    </div>
-  </header>
 
-  <main>
+  
+	<header>
+		<!-- ヘッダー ここから -->
+		<div class="header">
+			<p class="logo">
+				<a href="index.html">
+					<span class="logo_img">
+						<img src="image/common/logo.png" alt="">
+					</span>
+				</a>
+			</p>
+			<ul class="headnavi">
+				<li class="inq_item first_item">
+					<a href="http://www.sun-great.com/meinohamafirst/" class="">サングレート姪浜駅南<br>FIRST</a>
+				</li>
+				<li class="inq_item next_item">
+					<a href="http://www.sun-great.com/meinohamanext/" class="">サングレート姪浜駅南<br>NEXT</a>
+				</li>
+			</ul>
+			<div class="nav_btn" id="nav_btn"><hr /><hr /><hr /><span class="hamb_txt open">MENU</span><span class="hamb_txt close">CLOSE</span></div>
+		</div>
+		<!-- ヘッダー ここまで -->
+		<!-- ナビ ここから -->
+		<div class="gnavi_outer">
+			<nav class="gnavi_wrap">
+				<ul class="gnavi clearfix">
+					<li class="nav nav_loc">
+						<a href="location/">
+							<span class="en">Location</span>
+							<span class="jp">ロケーション</span>
+						</a>
+					</li>
+					<li class="nav nav_qua">
+						<a href="quality/">
+							<span class="en">Quality</span>
+							<span class="jp">クオリティ</span>
+						</a>
+					</li>
+					<li class="nav nav_ord">
+						<a href="orderstyle/">
+							<span class="en">Orderstyle</span>
+							<span class="jp">オーダースタイル</span>
+						</a>
+					</li>
+					<li class="nav nav_sun">
+						<a href="http://www.sun-great.com/" target="_blank">
+							<span class="en">Company</span>
+							<span class="jp">タイヘイHP</span>
+						</a>
+					</li>
+					<li class="nav nav_wor">
+						<a href="http://www.sun-great.com/meinohamafirst/map/" class="popup_map">
+							ギャラリー案内図
+						</a>
+					</li>
+				</ul>
+
+			</nav>
+		</div>
+		<!-- ナビ ここまで -->
+	</header>
+  
+
+  <main class="main">
     <!-- トップリボン -->
     <section class="topindex d-flex c_align-items-c" id="topindex">
       <div class="c_container">
