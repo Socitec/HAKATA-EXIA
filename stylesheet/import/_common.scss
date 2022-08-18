@@ -1,4 +1,9 @@
-main {
+body {
+  background-color: #000000;
+}
+
+.main {
+  margin-top: 90px;
   background-color: #231815;
 }
 
@@ -145,8 +150,8 @@ p {
 
 
 @media all and (max-width: 768px) {
-  main {
-    margin-top: 90px;
+  .main {
+    margin-top: 70px;
   }
 
   .c_container {

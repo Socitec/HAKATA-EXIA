@@ -450,7 +450,12 @@ template {
 }
 
 /* Sass変数定義 */
-main {
+body {
+  background-color: #000000;
+}
+
+.main {
+  margin-top: 90px;
   background-color: #231815;
 }
 
@@ -592,8 +597,8 @@ p {
 }
 
 @media all and (max-width: 768px) {
-  main {
-    margin-top: 90px;
+  .main {
+    margin-top: 70px;
   }
   .c_container {
     width: 92%;
@@ -629,261 +634,9 @@ p {
     width: 85.7%;
   }
 }
-/* ヘッダースタイル共通 */
-.header {
-  height: 90px;
-  background-color: #000000;
-  font-family: serif;
-}
-
-.header__container {
-  align-items: center;
-}
-
-.header__logo-img {
-  height: 100%;
-}
-
-.header__menu-item {
-  align-items: center;
-  height: 56.8px;
-  margin-right: 18.9px;
-}
-
-.header__menu-item--background-left {
-  background-color: rgb(99, 99, 99);
-}
-
-.header__menu-item--background-right {
-  background-color: rgb(130, 130, 130);
-}
-
-/* ハンバーガーメニュー */
-/* ハンバーガーメニュー初期非表示 */
-.burgerButton-area {
-  display: none;
-}
-
-.burgerButton-menu-text {
-  display: none;
-}
-
-/* レスポンシブ */
-@media all and (max-width: 768px) {
-  .header {
-    position: fixed;
-    z-index: 10;
-    top: 0;
-    width: 100%;
-  }
-  .header br {
-    display: none;
-  }
-  /*ハンバーガーメニュー */
-  /* ハンバーガーメニューボタン */
-  .burgerButton-area {
-    display: block;
-    padding-right: 10px;
-  }
-  .burgerButton-menu-text {
-    display: block;
-  }
-  .burgerButton {
-    display: block;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    z-index: 20;
-    border: none;
-    float: right;
-  }
-  .bar {
-    width: 30px;
-    height: 1px;
-    display: block;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #fff;
-  }
-  .bar_top {
-    top: 10px;
-  }
-  .bar_mid {
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .bar_bottom {
-    bottom: 10px;
-  }
-  .burgerButton.close .bar_top {
-    transform: translate(-50%, 15px) rotate(45deg);
-    transition: transform 0.3s;
-  }
-  .burgerButton.close .bar_mid {
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  .burgerButton.close .bar_bottom {
-    transform: translate(-50%, -13px) rotate(-45deg);
-    transition: transform 0.3s;
-  }
-  .burgerButton-menu-text {
-    text-align: center;
-  }
-  /* ハンバーガーメニュー内スタイル */
-  .navWrapper {
-    transform: translateX(100%);
-    transition: 0.3s;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-  }
-  .headerNav {
-    background-color: #1B1310;
-    z-index: 5;
-    width: 100%;
-    height: 65vh;
-    right: 0;
-    position: absolute;
-  }
-  .headerNav .navList {
-    display: block;
-    position: absolute;
-    top: 35vh;
-    right: -6%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .headerNav .navItem {
-    margin-right: 0;
-    display: block;
-  }
-  /* burgerButtonがクリックされ、jQueryでcloseクラスが追加された時のアクション */
-  .burgerButton .close .bar_top {
-    transform: translate(-50%, 10px) rotate(45deg);
-    transition: transform 0.3s;
-  }
-  .burgerButton .close .bar_mid {
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  .burgerButton .close .bar_bottom {
-    transform: translate(-50%, -8px) rotate(-45deg);
-    transition: transform 0.3s;
-  }
-  /* ハンバーガーボタンが押され、slide-in classが追加されたときのアクション */
-  .slide-in {
-    transform: translateX(0);
-    transition: 0.3s;
-  }
-  .headerMenu li {
-    line-height: 48px;
-  }
-}
-/* フッター共通スタイル */
-.footer {
-  font-family: serif;
-}
-
-.footer__attention-area {
-  height: 154px;
-  background-color: #000000;
-}
-
-.footer__attention-text {
-  font-size: 12px;
-}
-
-.footer__top-area {
-  height: 100.8px;
-  background-color: rgb(47, 56, 63);
-}
-
-.footer__middle-area {
-  height: 128.3px;
-  background-color: #000000;
-}
-
-.footer__top-left-text {
-  font-size: 12px;
-}
-
-.footer__top-middle-box {
-  margin-left: 28.3px;
-  margin-right: 28.3px;
-}
-
-.footer__top-middle-img {
-  margin-right: 9.4px;
-}
-
-.footer__top-middle-text {
-  font-size: 50px;
-}
-
-.footer__top-right-text {
-  font-size: 12px;
-}
-
-.footer__bottom-area {
-  display: flex;
-  height: 100.8px;
-  background-color: rgb(47, 56, 63);
-}
-
-.footer__bottom-box {
-  height: 73.3px;
-}
-
-.footer__bottom-box--left {
-  margin-right: 28.3px;
-  background-color: rgb(99, 99, 99);
-}
-
-.footer__bottom-box--right {
-  margin-left: 28.3px;
-  background-color: rgb(130, 130, 130);
-}
-
-.footer__bottom-text {
-  line-height: 26px;
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
-}
-
-@media all and (max-width: 768px) {
-  .footer__top-area {
-    flex-direction: column;
-    height: auto;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-  .footer__top-left-box {
-    margin-top: 8.4px;
-  }
-  .footer__top-left-text {
-    text-align: center;
-  }
-  .footer__top-middle-img {
-    width: 11%;
-  }
-  .footer__top-middle-text {
-    font-size: 36px;
-  }
-  .footer__top-right-box {
-    margin-bottom: 8.4px;
-  }
-  .footer__top-right-text {
-    text-align: center;
-  }
-  .footer__bottom-area {
-    display: none;
-  }
-}
+/* @use "../import/header";
+@use "../import/footer";
+*/
 .doorlineup1__container {
   margin-top: 76.2px;
 }

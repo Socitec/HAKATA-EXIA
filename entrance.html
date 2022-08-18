@@ -18,13 +18,80 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!-- 個別ページStyle読み込み -->
   <link rel="stylesheet" href="stylesheet/entrance/entrance.css">
+  <!-- 共通ページ用スタイル-->
+  <link rel="stylesheet" href="stylesheet/common.css">
   <!-- Font Awesome読み込み -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
 
 </head>
 
 <body>
+
+  
+	<header>
+		<!-- ヘッダー ここから -->
+		<div class="header">
+			<p class="logo">
+				<a href="index.html">
+					<span class="logo_img">
+						<img src="image/common/logo.png" alt="">
+					</span>
+				</a>
+			</p>
+			<ul class="headnavi">
+				<li class="inq_item first_item">
+					<a href="http://www.sun-great.com/meinohamafirst/" class="">サングレート姪浜駅南<br>FIRST</a>
+				</li>
+				<li class="inq_item next_item">
+					<a href="http://www.sun-great.com/meinohamanext/" class="">サングレート姪浜駅南<br>NEXT</a>
+				</li>
+			</ul>
+			<div class="nav_btn" id="nav_btn"><hr /><hr /><hr /><span class="hamb_txt open">MENU</span><span class="hamb_txt close">CLOSE</span></div>
+		</div>
+		<!-- ヘッダー ここまで -->
+		<!-- ナビ ここから -->
+		<div class="gnavi_outer">
+			<nav class="gnavi_wrap">
+				<ul class="gnavi clearfix">
+					<li class="nav nav_loc">
+						<a href="location/">
+							<span class="en">Location</span>
+							<span class="jp">ロケーション</span>
+						</a>
+					</li>
+					<li class="nav nav_qua">
+						<a href="quality/">
+							<span class="en">Quality</span>
+							<span class="jp">クオリティ</span>
+						</a>
+					</li>
+					<li class="nav nav_ord">
+						<a href="orderstyle/">
+							<span class="en">Orderstyle</span>
+							<span class="jp">オーダースタイル</span>
+						</a>
+					</li>
+					<li class="nav nav_sun">
+						<a href="http://www.sun-great.com/" target="_blank">
+							<span class="en">Company</span>
+							<span class="jp">タイヘイHP</span>
+						</a>
+					</li>
+					<li class="nav nav_wor">
+						<a href="http://www.sun-great.com/meinohamafirst/map/" class="popup_map">
+							ギャラリー案内図
+						</a>
+					</li>
+				</ul>
+
+			</nav>
+		</div>
+		<!-- ナビ ここまで -->
+	</header>
+  
+
   <!-- Header -->
+  <!-- 
   <header class="header" id="header">
     <div class="header__container d-flex justify-content-between">
       <div class="header__logo-area">
@@ -77,9 +144,9 @@
             </li>
           </ul>
         </nav>
-      </div>
+      </div>-->
       <!-- ハンバーガーメニューボタン -->
-      <div class="burgerButton-area">
+<!--     <div class="burgerButton-area">
         <div class="burgerButton">
           <span class="bar bar_top"></span>
           <span class="bar bar_mid"></span>
@@ -88,9 +155,10 @@
         <p class="burgerButton-menu-text">MENU</p>
       </div>
     </div>
-  </header>
+  </header> -->
+  
 
-  <main>
+  <main class="main">
     <!-- トップリボン -->
     <section class="topindex d-flex c_align-items-c" id="topindex">
       <div class="c_container">
@@ -250,7 +318,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer" id="footer">
+<!--    <footer class="footer" id="footer">
       <div class="footer__attention-area d-flex c_align-items-c">
         <div class="c_container">
           <p class="footer__attention-text">
@@ -300,11 +368,46 @@
           </a>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
+    <div class="link">
+      <ul>
+        <li><a href="http://www.sun-great.com/meinohamafirst/" target="_blank"><p>サングレート姪浜駅南<br />FIRST</p></a></li>
+        <li><a href="http://www.sun-great.com/meinohamanext/" target="_blank"><p>サングレート姪浜駅南<br />NEXT</p></a></li>
+      </ul>
+    </div>
+<!-- フッター ここから -->
+<footer>
+	<!-- InstanceBeginEditable name="CAP" -->
+	<!-- ページ固有 編集可能エリア ここから -->
+	<div class="cap_wrap">
+		<div class="inner">
+			<p class="cap_l">※掲載のCGパースは図面を基に描き起こしたもので、実際とは異なります。植栽は竣工から初期の生育期間を経たものを想定して描いております。</p>
+		</div>
+	</div>
+	<!-- ページ固有 編集可能エリア ここまで -->
+	<!-- InstanceEndEditable -->
+	
+	<div class="contact">
+		<div class="inner">
+			<p class="tel1">［お問い合わせ］<br />サングレートマンションギャラリー</p>
+			<p class="tel2"><a href="tel:0120-433-630" class="sp_link"><img src="image/common/tel.png" alt="0120-433-630" class="2x" /></a></p>
+			<p class="tel3">営業時間 9：00～18：00（水曜定休）<br />※携帯電話からもご利用になれます。</p>
+		
+		</div>
+	</div>
+	
+	<div class="footer">
+	<p class="ta_c"><a href="http://www.web-taihei.co.jp/" target="_blank"><img src="image/common/f_logo@2x.png" class="2x" alt="株式会社タイヘイ"></a></p>
+	</div>
+</footer>
+
+
+
     <!-- jQuery Javascript読み込み -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
     <!-- Bootstrap Javascript読み込み-->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
     <!-- Javascript読み込み -->
     <script src="script/script.js"></script>
 </body>
