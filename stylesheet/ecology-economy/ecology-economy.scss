@@ -37,15 +37,15 @@
   line-height: 49px;
   font-size: 22px;
   color: #333333;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 19.6px;
+  padding-right: 19.6px;
 }
 
 .option__discription-box {
-  margin-top: 15.3px;
+  margin-top: 33.4px;
   margin-left: auto;
   margin-right: auto;
-  width: 1202.4px;
+  width: 1119.4px;
 }
 
 .option__disctiption-text {
@@ -83,13 +83,13 @@
 }
 
 .option__detail-content-text {
-  margin-top: 10px;
+  margin-top: 16.2px;
   margin-bottom: 20px;
   color: #333333;
 }
 
 .option__detail-content-img {
-  margin-bottom: 33.2px;
+  margin-bottom: 16.2px;
 }
 
 .option__center-img {
@@ -103,7 +103,6 @@
 }
 
 .option__detail-content-text-small {
-  margin-top: 10px;
   color: #333333;
   font-size: 14px;
 }
@@ -148,11 +147,15 @@
 @media all and (max-width: 768px) {
 
   .topview2__ecomark-img {
-    top: 50px;
+    top: 91px;
   }
 
   .topview2__heading-toptext {
     margin-top: 146px;
+  }
+
+  .option__outertext {
+    font-size: 19px;
   }
 
   .option__heading-box {

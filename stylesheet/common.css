@@ -7,7 +7,7 @@ a, img, ul, li, table, tr, td, p, h1, h2, h3, h4, h5, h6, ol, div, body, html, d
   border: none;
   list-style: none;
   font-weight: inherit;
-  font-size: 1em; }
+  }
 
 header, footer, section, figure, figcaption, aside, main {
   display: block; }
@@ -1589,8 +1589,7 @@ body:not(.mobile) a.sp_link {
 /*=====================================================
 COMMON-LAYOUT
 ======================================================*/
-h1 {
-  display: none; }
+
 
 .nav_ord a {
   opacity: 0.6;
@@ -1847,8 +1846,13 @@ ul.breadlist {
   box-sizing: content-box; }
 
 footer {
+  margin-bottom: 76px;
   width: 100%;
   background: #0b0a0c; }
+  @media screen and (max-width: 767px) {
+    footer {
+      margin-bottom: 0; } }
+
   footer .cap_wrap {
     padding: 40px 0;
     color: #fff;
@@ -1961,11 +1965,13 @@ footer {
     right: 20px; }
 
     
-footer {
-  margin-bottom: 110px; }
+.footer__blank {
+  height: 110px;
+  background-color: #fff;}
   @media screen and (max-width: 1050px) {
-    footer {
-      margin-bottom: 70px; } }
+    .footer__blank {
+      display: none;
+     } }
 
 .link {
   position: fixed;
@@ -1977,6 +1983,7 @@ footer {
   z-index: 9999; }
   @media screen and (max-width: 767px) {
     .link {
+      display: none;
       padding: 10px 10px; } }
   .link ul {
     display: flex;

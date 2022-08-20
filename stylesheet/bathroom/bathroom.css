@@ -471,7 +471,7 @@ li {
 }
 
 p {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .c_container {
@@ -533,6 +533,7 @@ p {
 
 .topview__heading {
   font-size: 32px;
+  padding-left: 19px;
 }
 
 .topview__container {
@@ -582,7 +583,7 @@ p {
 }
 
 .discription__container {
-  margin-top: 80.4px;
+  margin-top: 55px;
 }
 
 .discription__heading {
@@ -663,7 +664,7 @@ p {
 }
 
 .strength__bottom-text {
-  margin-top: 12.6px;
+  margin-top: 4px;
 }
 
 .detail {
@@ -691,7 +692,7 @@ p {
 }
 
 .detail__bottomtext {
-  margin-top: 10.6px;
+  margin-top: 4px;
 }
 
 .feature {
@@ -723,7 +724,7 @@ p {
 }
 
 .feature__bottom-text {
-  margin-top: 12.6px;
+  margin-top: 4px;
 }
 
 @media all and (max-width: 768px) {
